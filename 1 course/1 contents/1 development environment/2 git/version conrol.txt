@@ -1,0 +1,39 @@
+
+Version Control
+
+Delete version control
+
+// rm -rf .git
+
+Branching & Merging
+
+// To check the current and branches available
+	git branch
+
+// To switch between branches
+	git checkout branch-name
+
+// To switch and create a new branch
+	git checkout -b branch-name
+
+// To check version difference
+	git diff branch-name
+
+// To pull changes to local enviroment
+	git pull
+
+// To delete a branch
+	git branch -d branch-name
+
+// To add and commit at the same time 
+	git commit -am "msg" // This works  for modified files and not newly created ones
+
+// To merge changes
+	git merge branch-name
+
+// To undo
+	git reset
+	git reset file-name
+
+	git reset Head~1 // For commits
+	git reset "commit #" // For commits
