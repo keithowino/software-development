@@ -1,0 +1,38 @@
+/* Default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    background-color: #fff;
+}
+
+p {
+    line-height: 2rem;
+}
+
+p.descendant-selector-eg .descendant-selector,
+p.child-selector-eg>.child-selector,
+p.adjascent-sibling-selector-eg+.adjascent-sibling-selector,
+p.general-sibling-selector-eg~.general-sibling-selector,
+.atribute-selectors p[class="active-class-atribute"] {
+    text-decoration: underline blue solid 2px;
+    background-color: #f5f7ff;
+    padding: 1px 4px;
+    font-weight: 500;
+}
+
+/* .atribute-selector p[class="active"] {
+
+} */

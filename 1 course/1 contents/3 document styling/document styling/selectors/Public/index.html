@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Design Solutions">
+    <meta name="description" content="This is a template document">
+    <title>Document Styling | Design Solutions</title>
+    <link rel="shortcut icon" href="../src/assets/layer-group.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="../simple.css">
+    <link rel="stylesheet" href="../new.css">
+
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <header>
+        <section class="hero-section">
+            <div class="section-data">
+                <h1 class="title">Document Styling</h1>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h2>Selectors</h2>
+
+            <p>Examples of Selectors</p>
+
+            <ol class="selector-list">
+                <li>Combinator Selectors</li>
+                <li>Atribute Selectors</li>
+            </ol>
+            <!-- <ol class="selector-list">
+                <li>Element Selector</li>
+                <li>Class Selector</li>
+                <li>Id Selector</li>
+                
+            </ol> -->
+
+            <section class="selectors" id="selectors">
+                <section class="combinator-selectors" id="combinatorSelectors">
+                    <h3>Combinator Selectors</h3>
+
+                    <p>Examples of Combinators selectors</p>
+
+                    <ol>
+                        <li>Descendant Selector</li>
+                        <li>Child Selector</li>
+                        <li>Adjascent Sibling Selector</li>
+                        <li>General Sibling Selector</li>
+                    </ol>
+
+
+
+                    <section class="selector" id="descendantSelector">
+                        <h4>Descendant Selector</h4>
+
+                        <p>Example:-</p>
+                        </code>
+                        <p class="descendant-selector-eg">This are my descendants: <span
+                                class="descendant-selector">Jackob</span>, <span class="descendant-selector">Lea</span>,
+                            <span class="descendant-selector">Nebuchadneza</span> and Mr.
+                            <span class="descendant-selector">Ndegwa</span>. They are too many, i almost forgot the
+                            others. We
+                            have
+                            <span><i class="descendant-selector">Mercy</i>, <i class="descendant-selector">Ruth</i> and
+                                <i class="descendant-selector">Kimberly</i>.</span>
+                        </p>
+                        <p>The above underlined texts are recognised as the descendants of the
+                            <code>p.descendant-selector-eg</code> element.
+                        </p>
+                    </section>
+                    <section class="selector" id="childSelector">
+                        <h4>Child Selector</h4>
+
+                        <p>Example:-</p>
+                        </code>
+                        <p class="child-selector-eg">This are my descendants: <span
+                                class="child-selector">Jackob</span>, <span class="child-selector">Lea</span>, <span
+                                class="child-selector">Nebuchadneza</span> and Mr.
+                            <span class="child-selector">Ndegwa</span>. They are too many, i almost forgot the others.
+                            We
+                            have
+                            <span><i class="child-selector">Mercy</i>, <i class="child-selector">Ruth</i> and <i
+                                    class="child-selector">Kimberly</i>.</span>
+                        </p>
+                        <p>Here only the above underlined texts as compared to the <a
+                                href="#descendantSelector"><b>descendant
+                                    selector</b></a> are recognised as
+                            the imediate children of the
+                            <code>p.child-selector-eg</code> element.
+                        </p>
+                    </section>
+                    <section class="selector" id="adjascentSiblingSelector">
+                        <h4>Adjascent Sibling Selector</h4>
+
+                        <p>Example:-</p>
+                        </code>
+                        <p class="adjascent-sibling-selector-eg">This are my descendants: <span
+                                class="adjascent-sibling-selector">Jackob</span>, <span
+                                class="adjascent-sibling-selector">Lea</span>, <span
+                                class="adjascent-sibling-selector">Nebuchadneza</span> and Mr.
+                            <span class="adjascent-sibling-selector">Ndegwa</span>. They are too many, i almost forgot
+                            the
+                            others. We
+                            have
+                            <span><i class="adjascent-sibling-selector">Mercy</i>, <i
+                                    class="adjascent-sibling-selector">Ruth</i> and <i
+                                    class="adjascent-sibling-selector">Kimberly</i>.</span>
+                        </p>
+                        <span class="adjascent-sibling-selector">Tomy</span>
+                        <p>The above underlined text is recognised to be after the
+                            <code>p.adjascent-sibling-selector-eg</code> element and having the same class property as
+                            it's
+                            imediate children.
+                        </p>
+                    </section>
+                    <section class="selector" id="generalSiblingSelector">
+                        <h4>General Sibling Selector</h4>
+
+                        <p>Example:-</p>
+                        </code>
+                        <p class="general-sibling-selector-eg">This are my descendants: <span
+                                class="general-sibling-selector">Jackob</span>, <span
+                                class="general-sibling-selector">Lea</span>, <span
+                                class="general-sibling-selector">Nebuchadneza</span> and Mr.
+                            <span class="general-sibling-selector">Ndegwa</span>. They are too many, i almost forgot the
+                            others. We
+                            have
+                            <span><i class="general-sibling-selector">Mercy</i>, <i
+                                    class="general-sibling-selector">Ruth</i>
+                                and <i class="general-sibling-selector">Kimberly</i>.</span>
+                        </p>
+
+                        <span class="general-sibling-selector">Tony</span>
+                        <span class="general-sibling-selector">Sania</span>
+
+                        <p>The above underlined texts are recognised to be after the
+                            <code>p.general-sibling-selector-eg</code> element and having the same class property as
+                            it's
+                            imediate children.
+                        </p>
+                    </section>
+                </section>
+                <selection class="atribute-selectors" id="atributeSelectors">
+                    <h3>Atribute Selectors</h3>
+
+                    <div class="atribute-selector-eg">
+                        <p class="active-class-atribute">Target text</p>
+                        <p class="class-atribute">Dummy text</p>
+                        <p class="class-atribute">Dummy text</p>
+                        <p class="class-atribute">Dummy text</p>
+                        <p class="class-atribute">Dummy text</p>
+                    </div>
+                </selection>
+            </section>
+
+
+        </section>
+    </main>
+    <footer>
+        <i>2025 Copyright &copy; Client designed by Design Solutions.</i>
+    </footer>
+
+    <script src="../index.js"></script>
+</body>
+
+</html>

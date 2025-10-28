@@ -1,0 +1,9 @@
+
+# Typical React Application Requirements
+
+- npm create vite@latest
+- installations
+	- react-icons
+	- react-dom-router
+	- Optional
+		- tailwindcss

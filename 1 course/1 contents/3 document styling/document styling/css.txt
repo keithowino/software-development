@@ -1,0 +1,10 @@
+# CSS
+
+## Selectors
+
+- We have:-
+	- Element selectors
+	- Class selectors
+	- Id selector
+		- They should only exist once (Unique).
+		- It is advised not to use Id's in the css files.
