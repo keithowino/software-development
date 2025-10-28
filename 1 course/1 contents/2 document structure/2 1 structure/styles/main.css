@@ -1,0 +1,72 @@
+/* Default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+hr {
+    margin: 2em 0;
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* End of default styles */
+
+/* Header styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+/* End of header styles */
+
+/* HTML page */
+
+table, td, caption, th, tr  {
+    border: 1px solid #000;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5em;
+}
+
+.ds__form-item {
+    margin: 1em 0;
+}
+
+/* End of HTML page */

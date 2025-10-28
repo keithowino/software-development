@@ -1,0 +1,11 @@
+.about-article {
+    display: flex;
+}
+
+.main-col {
+    width: 20%;
+}
+
+.aside-col {
+    width: 80%;
+}

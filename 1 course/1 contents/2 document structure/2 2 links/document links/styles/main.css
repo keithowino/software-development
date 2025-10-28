@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-data {
+    padding: 10px 30px;
+}
+
+.link-example {
+    padding: 5px 0;
+}
+
+abbr, a {
+    text-decoration: none;
+}

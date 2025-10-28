@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Design Solutions">
+    <meta name="description" content="I am learning html, the path to website development">
+    <title>HTML | Design Solutions</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header>
+        <section class="main-nav">
+            <nav>
+                <a href="#" class="logo">Document Structure</a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="../markup/css.html">CSS</a></li>
+                        <li><a href="../markup/js.html">JavaScript</a></li>
+                        <li><a href="../markup/react.html">React</a></li>
+                        <li><a href="../markup/cpp.html">C++</a></li>
+                        <li><a href="../markup/python.html">Python</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h1 class="title">Hyper Text Markup Language</h1>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <hr>
+        <section class="table-section">
+            <div class="section-data">
+                <h2 class="section-title">Table</h2>
+                <table>
+                    <caption>Contributions</caption>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tim Kempinsky</td>
+                            <td>KSHs 4000</td>
+                        </tr>
+                        <tr>
+                            <td>Lilian Muli</td>
+                            <td>KSHs 1000</td>
+                        </tr>
+                        <tr>
+                            <td>Ruth Mbotela</td>
+                            <td>KSHs 10000</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Total = KSHs 15000</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Thank you for your participation</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+        <hr>
+        <section class="form-section">
+            <div class="section-data">
+                <h2 class="section-title">Form</h2>
+                <article>
+                    <form action="https://httpbin.org/get" method="get">
+                        <fieldset>
+                            <legend>Information</legend>
+                            <ul>
+                                <li class="ds__form-item">
+                                    <label for="firstName">First Name:</label>
+                                    <input type="text" name="firstName" id="firstName" placeholder="First Name" autofocus required autocomplete="on">
+                                </li>
+                                <li class="ds__form-item">
+                                    <label for="lastName">Last Name:</label>
+                                    <input type="text" name="lastName" id="lastName" placeholder="Last Name" required autocomplete="on">
+                                </li>
+                                <li class="ds__form-item">
+                                    <label for="password">Password:</label>
+                                    <input type="password" name="password" id="password" placeholder="secret" required autocomplete="on">
+                                </li>
+                                <li class="ds__form-item">
+                                    <label for="phone">Phone Number:</label>
+                                    <input type="tell" name="phone" id="phone" placeholder="0787654321" required autocomplete="on">
+                                </li>
+                                <li class="ds__form-item">
+                                    <label for="favouriteDrinks">Favourite Drinks:</label>
+                                    <select name="favouriteDrinks" id="favouriteDrinks">
+                                        <optgroup label="Soft Drinks">
+                                            <option value="stony">Stony</option>
+                                            <option value="fanta passion">Fanta Passion</option>
+                                        </optgroup>
+                                        <optgroup label="Hard Drinks">
+                                            <option value="keg" selected>Keg</option>
+                                            <option value="chrome">Chrome</option>
+                                            <option value="blue lagoon">Blue Lagoon</option>
+                                            <option value="tusker">Tusker</option>
+                                        </optgroup>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                </article>
+            </div>
+        </section>
+        <hr>
+
+    </main>
+    <script src="../scripts/main.js"></script>
+</body>
+</html>
